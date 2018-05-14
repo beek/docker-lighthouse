@@ -1,7 +1,7 @@
 # Docker Lighthouse
 Docker image with [Lighthouse](https://developers.google.com/web/tools/lighthouse) and [Google Chrome](https://www.google.com/chrome) installed.
 
-## Why this is needed?
+## Why is this needed?
 We already can use [Lighthouse](https://developers.google.com/web/tools/lighthouse) as a [CLI (Command Line Interface)](https://developers.google.com/web/tools/lighthouse/#herramienta_linea_de_comandos) but it still needs our browser. We may want a headless browser without extensions or other tabs running in order to get the most accurate results possible.
 
 ## What does this docker image contain?
