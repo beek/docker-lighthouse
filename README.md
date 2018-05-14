@@ -2,9 +2,9 @@
 Docker image with [Lighthouse](https://developers.google.com/web/tools/lighthouse) and [Google Chrome](https://www.google.com/chrome) installed.
 
 ## Why this is needed?
-We already can use [Lighthouse](https://developers.google.com/web/tools/lighthouse) as a [CLI (Command Line Interface)](https://developers.google.com/web/tools/lighthouse/#herramienta_linea_de_comandos) but it still needs our browser. We may want a headless browser without extensions or other tabs running in order to get the most acurate results as posible.
+We already can use [Lighthouse](https://developers.google.com/web/tools/lighthouse) as a [CLI (Command Line Interface)](https://developers.google.com/web/tools/lighthouse/#herramienta_linea_de_comandos) but it still needs our browser. We may want a headless browser without extensions or other tabs running in order to get the most accurate results possible.
 
-## What does this docker image contains?
+## What does this docker image contain?
 
 This is a very simple image based on the [Circleci node image](https://hub.docker.com/r/circleci/node/) (since Lighthouse runs on Node.js). This base image give us Node.js and the headless Chrome browser.
 
